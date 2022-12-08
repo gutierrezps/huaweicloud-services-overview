@@ -1,8 +1,23 @@
 # Huawei Cloud services overview
 
-This project aims to be like a cheatsheet of Huawei Cloud by listing common
+Link to the webpage version: [https://gutierrezps.github.io/huaweicloud-services-overview][gh-page]
+
+This project aims to be like a cheatsheet for Huawei Cloud by listing common
 services, a brief description of them and links to their respective Help Center
 page.
+
+<a href="https://www.huaweicloud.com/intl/en-us/"><img width="450px" height="102px" src="https://console-static.huaweicloud.com/static/authui/20210202115135/public/custom/images/logo-en.svg"></a>
+
+## Useful links
+
+- [Cloud Console][console]
+- [Help Center][help-center]
+- [Price Calculator][calculator]
+
+For developers:
+
+- [Huawei Cloud API Explorer][api-explorer]
+- [Terraform HuaweiCloud Provider][terraform-provider]
 
 ## General concepts
 
@@ -17,9 +32,9 @@ high-availability systems.
 network latency. Public services such as ECS, EVS, OBS, VPC, EIP and IMS are
 shared within the same region.
 
-Billing mode: resources on Huawei Cloud can be billed by different
+[Pricing][pricing]: resources on Huawei Cloud can be billed by different
 modes. The most common ones are: yearly/monthly, where you choose the period
-specified and you are charged in advance (prepaid); pay-per-use, a postpaid
+specified and you are charged in advance (prepaid); and pay-per-use, a postpaid
 mode where you are billed by a rate that can be based by time (e.g. hourly
 rate) or resource usage (e.g. traffic, data volume, number of calls). There are
 some free services as well, and also services that have a free tier/quota.
@@ -76,7 +91,14 @@ multiple computer systems using various interconnection technologies. It relies
 on the integrated computing capability of all the connected systems to perform
 large-scale computing tasks.
 
+[gh-page]: <https://gutierrezps.github.io/huaweicloud-services-overview>
+[console]: <https://console-intl.huaweicloud.com/console/?locale=en-us>
+[help-center]: <https://support.huaweicloud.com/intl/en-us/index.html>
+[calculator]: <https://www.huaweicloud.com/intl/en-us/pricing/index.html>
+[api-explorer]: <https://apiexplorer.developer.intl.huaweicloud.com/apiexplorer/doc>
+[terraform-provider]: <https://github.com/huaweicloud/terraform-provider-huaweicloud>
 [region-az]: <https://support.huaweicloud.com/intl/en-us/usermanual-iaas/en-us_topic_0184026189.html>
+[pricing]: <https://www.huaweicloud.com/intl/en-us/product/price.html>
 [ecs-billing]: <https://support.huaweicloud.com/intl/en-us/productdesc-ecs/ecs_01_0065.html>
 [ecs]: <https://support.huaweicloud.com/intl/en-us/ecs/index.html>
 [ecs-flavor]: <https://support.huaweicloud.com/intl/en-us/productdesc-ecs/en-us_topic_0035470096.html>
