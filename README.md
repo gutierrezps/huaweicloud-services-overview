@@ -1,12 +1,12 @@
 # Huawei Cloud services overview
 
-Link to the webpage version: [https://gutierrezps.github.io/huaweicloud-services-overview][gh-page]
+<a href="https://www.huaweicloud.com/intl/en-us/"><img width="450px" height="102px" src="https://console-static.huaweicloud.com/static/authui/20210202115135/public/custom/images/logo-en.svg"></a>
 
 This project aims to be like a cheatsheet for Huawei Cloud by listing common
 services, a brief description of them and links to their respective Help Center
 page.
 
-<a href="https://www.huaweicloud.com/intl/en-us/"><img width="450px" height="102px" src="https://console-static.huaweicloud.com/static/authui/20210202115135/public/custom/images/logo-en.svg"></a>
+
 
 ## Useful links
 
