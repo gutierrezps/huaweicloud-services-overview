@@ -13,6 +13,7 @@ page.
 - [Cloud Console][console]
 - [Help Center][help-center]
 - [Price Calculator][calculator]
+- [Public Cloud Services Comparison][cloud-compare]
 
 For developers:
 
@@ -32,7 +33,7 @@ high-availability systems.
 network latency. Public services such as ECS, EVS, OBS, VPC, EIP and IMS are
 shared within the same region.
 
-[Pricing][pricing]: resources on Huawei Cloud can be billed by different
+[Pricing][pricing]: resources on Huawei Cloud are billed by different
 modes. The most common ones are: yearly/monthly, where you choose the period
 specified and you are charged in advance (prepaid); and pay-per-use, a postpaid
 mode where you are billed by a rate that can be based by time (e.g. hourly
@@ -59,15 +60,6 @@ accelerated; `k`, Kunpeng architecture.
 [BMS: Bare Metal Server][bms], a physical server integrated to Huawei Cloud. It
 provides dedicated servers on the cloud, delivering performance and security.
 
-[DeH: Dedicated Host][deh], a physical server that runs only ECSs from your
-account. Bring Your Own License (BYOL). Traditional ECSs, in contrast, run in
-a server together with ECSs from other accounts/tenants.
-
-[DeC: Dedicated Cloud][dec], a complete resource isolation solution by using
-dedicated services, such as Dedicated Distributed Storage Service (DSS),
-Dedicated Enterprise Storage Service (DESS), and Bare Metal Server (BMS). DeH
-can provide only isolated compute hosts.
-
 [AS: Auto Scaling][as], a service that automatically adjusts resources based on
 your service requirements and configured AS policies. You can specify AS
 policies based on service requirements. AS can automatically adjust ECS and
@@ -86,6 +78,15 @@ a scaling action is triggered automatically. Conditions can be alarm (according
 to a metric value), scheduled (at a specified date and time) or periodic (at a
 configured interval, e.g. dayly, weekly, etc).
 
+[DeH: Dedicated Host][deh], a physical server that runs only ECSs from your
+account. Bring Your Own License (BYOL). Traditional ECSs, in contrast, run in
+a server together with ECSs from other accounts/tenants.
+
+[DeC: Dedicated Cloud][dec], a complete resource isolation solution by using
+dedicated services, such as Dedicated Distributed Storage Service (DSS),
+Dedicated Enterprise Storage Service (DESS), and Bare Metal Server (BMS). DeH
+can provide only isolated compute hosts.
+
 [HPC: High-Performance Computing][hpc], a computer cluster system that connects
 multiple computer systems using various interconnection technologies. It relies
 on the integrated computing capability of all the connected systems to perform
@@ -95,6 +96,7 @@ large-scale computing tasks.
 [console]: <https://console-intl.huaweicloud.com/console/?locale=en-us>
 [help-center]: <https://support.huaweicloud.com/intl/en-us/index.html>
 [calculator]: <https://www.huaweicloud.com/intl/en-us/pricing/index.html>
+[cloud-compare]: <https://comparecloud.in/>
 [api-explorer]: <https://apiexplorer.developer.intl.huaweicloud.com/apiexplorer/doc>
 [terraform-provider]: <https://github.com/huaweicloud/terraform-provider-huaweicloud>
 [region-az]: <https://support.huaweicloud.com/intl/en-us/usermanual-iaas/en-us_topic_0184026189.html>
