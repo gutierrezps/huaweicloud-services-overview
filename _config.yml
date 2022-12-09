@@ -1,5 +1,7 @@
-theme: jekyll-theme-minima
+theme: minima
 title: Huawei Cloud services overview
+author:
+  name: Gabriel Gutierrez PS
 description: >
   An overview ("cheatsheet") of Huawei Cloud services, listing common services,
   a brief description of them and links to their respective Help Center page.
