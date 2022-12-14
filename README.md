@@ -174,6 +174,72 @@ Cluster (DCC), ECS and BMS, DSS is suitable for different
 scenarios, including HPC, online analytical processing (OLAP),
 and mixed loads.
 
+## Networking
+
+[VPC: Virtual Private Cloud][vpc] enables you to provision logically isolated
+virtual private networks for cloud resources, such cloud servers, containers,
+and databases. You can create custom subnets, security groups, network ACLs,
+and assign EIPs and bandwidths. By default, ECSs in all subnets of the same VPC
+can communicate with one another, but ECSs in different VPCs cannot.
+
+- [Subnet][subnet] is a unique CIDR block with a range of IP addresses in a
+  VPC. All resources in a VPC must be deployed on subnets. When you create a
+  VPC, a default subnet will be created together.
+
+- [Security Group][secgroup] is a collection of access control rules for cloud
+  resources that have the same security protection requirements and that are
+  mutually trusted. Those rules will apply to all cloud resources added to the
+  security group. Rules can be for inbound traffic (into the protected
+  services) or outbound traffic (originated from the protected services), and
+  can allow or deny such traffic based on source/destination, protocol and
+  port.
+
+- [Network ACL][netw-acl] is an optional layer of security for your subnets.
+  After you associate one or more subnets with a network ACL, you can control
+  traffic in and out of the subnets.
+
+[EIP: Elastic IP][eip] is a public IP address that can be accessed directly
+over the Internet. An EIP consists of a public IP address and some amount of
+public network egress bandwidth. EIPs can be bound to or unbound from ECSs,
+BMSs, virtual IP addresses, NAT gateways, and load balancers.
+
+[ELB: Elastic Load Balance][elb] automatically distributes incoming traffic
+across multiple backend servers based on the listening rules you configure,
+eliminating single points of failure. ELB = (Listener) + (Backend server
+group).
+
+- [Listener][elb-listener] uses the protocol and port you specify to check for
+  requests from clients and route the requests to associated backend servers
+  based on the listening rules and forwarding policies you configure. Supports
+  Layer 4 (TCP and UDP) and Layer 7 (HTTP and HTTPS) protocols.
+
+- [Backend server group][elb-backend] contains one or more backend servers to
+  receive requests routed by the listener. You need to add at least one backend
+  server to a backend server group. You can set a weight for each server in the
+  backend server group. The larger the weight is, the higher proportion of
+  requests the backend server receives. Backend servers can be dynamically
+  added/removed through an Auto Scaling setup.
+
+[NAT Gateway][natgw] is a network address translation (NAT) service. It can be
+a public NAT gateway or a private NAT gateway. A public NAT gateway uses an
+EIP to enable cloud and on-premises servers in a private subnet to access the
+Internet (source NAT, SNAT), or to make services in a VPC accessible from the
+Internet (destination NAT, DNAT). Private NAT gateways allows ECSs and BMSs in
+a VPC to communicate with servers in other VPCs or on-premises data centers,
+translating the source and destination IP addresses of originating packets into
+a transit IP address.
+
+[VPN: Virtual Private Network][vpn] establishes an encrypted, Internet-based
+communication tunnel between your on-premises data center and a VPC, so that
+you can access service resources in the VPC from your on-premises data center.
+Currently, only IPsec VPN is supported, in a site-to-site scheme.
+
+[DNS: Domain Name Service][dns] is a highly available and scalable
+authoritative DNS service that translates domain names (such as
+`www.example.com`) into IP addresses (such as `192.1.2.3`) required for network
+connection. The DNS service allows users to visit your websites or web
+applications with domain names.
+
 [gh-page]: <https://gutierrezps.github.io/huaweicloud-services-overview>
 [console]: <https://console-intl.huaweicloud.com/console/?locale=en-us>
 [help-center]: <https://support.huaweicloud.com/intl/en-us/index.html>
@@ -208,3 +274,15 @@ and mixed loads.
 [cdn]: <https://support.huaweicloud.com/intl/en-us/cdn/index.html>
 [des]: <https://support.huaweicloud.com/intl/en-us/des/index.html>
 [dss]: <https://support.huaweicloud.com/intl/en-us/dss/index.html>
+
+[vpc]: <https://support.huaweicloud.com/intl/en-us/vpc/index.html>
+[subnet]: <https://support.huaweicloud.com/intl/en-us/usermanual-vpc/vpc_0001.html>
+[secgroup]: <https://support.huaweicloud.com/intl/en-us/usermanual-vpc/en-us_topic_0073379079.html>
+[netw-acl]: <https://support.huaweicloud.com/intl/en-us/usermanual-vpc/acl_0001.html>
+[eip]: <https://support.huaweicloud.com/intl/en-us/eip/index.html>
+[elb]: <https://support.huaweicloud.com/intl/en-us/elb/index.html>
+[elb-listener]: <https://support.huaweicloud.com/intl/en-us/usermanual-elb/elb_ug_jt_0001.html>
+[elb-backend]: <https://support.huaweicloud.com/intl/en-us/usermanual-elb/elb_ug_hd_0001.html>
+[natgw]: <https://support.huaweicloud.com/intl/en-us/natgateway/index.html>
+[vpn]: <https://support.huaweicloud.com/intl/en-us/vpn/index.html>
+[dns]: <https://support.huaweicloud.com/intl/en-us/dns/index.html>
