@@ -6,14 +6,16 @@ This project aims to be like a cheatsheet for Huawei Cloud by listing common
 services, a brief description of them and links to their respective Help Center
 page.
 
-
-
 ## Useful links
 
 - [Cloud Console][console]
-- [Help Center][help-center]
+- [Help Center][help-center] - services documentation, tutorials ("Getting
+  Started" tab) and FAQs ("Self Service" tab)
+- [Worldwide Infrastructure][worldwide-infra] - check which services are
+  available in each Region
 - [Price Calculator][calculator]
-- [Public Cloud Services Comparison][cloud-compare]
+- [Public Cloud Services Comparison][cloud-compare] - see how Huawei Cloud
+  services are named on other cloud providers
 
 For developers:
 
@@ -60,6 +62,12 @@ accelerated; `k`, Kunpeng architecture.
 [BMS: Bare Metal Server][bms], a physical server integrated to Huawei Cloud. It
 provides dedicated servers on the cloud, delivering performance and security.
 
+[IMS: Image Management Service][ims] allows you to manage the entire lifecycle
+of your images. An image is a cloud server or disk template that contains an
+operating system (OS), service data, or necessary software. You can create ECSs
+or BMSs from public, private, or shared images. You can also create a private
+image from a cloud server or an external image file.
+
 [AS: Auto Scaling][as], a service that automatically adjusts resources based on
 your service requirements and configured AS policies. You can specify AS
 policies based on service requirements. AS can automatically adjust ECS and
@@ -95,6 +103,7 @@ large-scale computing tasks.
 [gh-page]: <https://gutierrezps.github.io/huaweicloud-services-overview>
 [console]: <https://console-intl.huaweicloud.com/console/?locale=en-us>
 [help-center]: <https://support.huaweicloud.com/intl/en-us/index.html>
+[worldwide-infra]: <https://www.huaweicloud.com/intl/en-us/global/>
 [calculator]: <https://www.huaweicloud.com/intl/en-us/pricing/index.html>
 [cloud-compare]: <https://comparecloud.in/>
 [api-explorer]: <https://apiexplorer.developer.intl.huaweicloud.com/apiexplorer/doc>
@@ -105,10 +114,11 @@ large-scale computing tasks.
 [ecs]: <https://support.huaweicloud.com/intl/en-us/ecs/index.html>
 [ecs-flavor]: <https://support.huaweicloud.com/intl/en-us/productdesc-ecs/en-us_topic_0035470096.html>
 [bms]: <https://support.huaweicloud.com/intl/en-us/bms/index.html>
-[deh]: <https://support.huaweicloud.com/intl/en-us/deh/index.html>
-[dec]: <https://support.huaweicloud.com/intl/en-us/deh_faq/deh_faq_0007.html>
+[ims]: <https://support.huaweicloud.com/intl/en-us/ims/index.html>
 [as]: <https://support.huaweicloud.com/intl/en-us/as/index.html>
 [as-config]: <https://support.huaweicloud.com/intl/en-us/usermanual-as/en-us_topic_0042018362.html>
 [as-group]: <https://support.huaweicloud.com/intl/en-us/usermanual-as/en-us_topic_0042018368.html>
 [as-policy]: <https://support.huaweicloud.com/intl/en-us/usermanual-as/en-us_topic_2019013003.html>
+[deh]: <https://support.huaweicloud.com/intl/en-us/deh/index.html>
+[dec]: <https://support.huaweicloud.com/intl/en-us/deh_faq/deh_faq_0007.html>
 [hpc]: <https://support.huaweicloud.com/intl/en-us/usermanual-hpc/hpc_01_0002.html>
