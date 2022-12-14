@@ -61,6 +61,8 @@ accelerated; `k`, Kunpeng architecture.
 
 [BMS: Bare Metal Server][bms], a physical server integrated to Huawei Cloud. It
 provides dedicated servers on the cloud, delivering performance and security.
+BMSs are deployed in multiple AZs, and work with VPC, EIP, IMS, EVS, VBS,
+Cloud Eye and CBR services.
 
 [IMS: Image Management Service][ims] allows you to manage the entire lifecycle
 of your images. An image is a cloud server or disk template that contains an
@@ -86,14 +88,21 @@ a scaling action is triggered automatically. Conditions can be alarm (according
 to a metric value), scheduled (at a specified date and time) or periodic (at a
 configured interval, e.g. dayly, weekly, etc).
 
+[FunctionGraph][functiongraph] is the serverless computing service of Huawei
+Cloud. It hosts and computes event-driven functions in a serverless context
+while ensuring high availability, high scalability, and zero maintenance.
+Write/upload your code in Node.js, Python, Java, Go, C#, or PHP; set execution
+conditions; and pay only for what you use (you are not charged when it's not
+running).
+
 [DeH: Dedicated Host][deh], a physical server that runs only ECSs from your
 account. Bring Your Own License (BYOL). Traditional ECSs, in contrast, run in
 a server together with ECSs from other accounts/tenants.
 
 [DeC: Dedicated Cloud][dec], a complete resource isolation solution by using
 dedicated services, such as Dedicated Distributed Storage Service (DSS),
-Dedicated Enterprise Storage Service (DESS), and Bare Metal Server (BMS). DeH
-can provide only isolated compute hosts.
+Dedicated Enterprise Storage Service (DESS), and Bare Metal Server (BMS). DeH,
+in contrast, can provide only isolated compute hosts.
 
 [HPC: High-Performance Computing][hpc], a computer cluster system that connects
 multiple computer systems using various interconnection technologies. It relies
@@ -119,6 +128,7 @@ large-scale computing tasks.
 [as-config]: <https://support.huaweicloud.com/intl/en-us/usermanual-as/en-us_topic_0042018362.html>
 [as-group]: <https://support.huaweicloud.com/intl/en-us/usermanual-as/en-us_topic_0042018368.html>
 [as-policy]: <https://support.huaweicloud.com/intl/en-us/usermanual-as/en-us_topic_2019013003.html>
+[functiongraph]: <https://support.huaweicloud.com/intl/en-us/functiongraph/index.html>
 [deh]: <https://support.huaweicloud.com/intl/en-us/deh/index.html>
 [dec]: <https://support.huaweicloud.com/intl/en-us/deh_faq/deh_faq_0007.html>
 [hpc]: <https://support.huaweicloud.com/intl/en-us/usermanual-hpc/hpc_01_0002.html>
