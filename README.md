@@ -257,6 +257,58 @@ communications. (A network instance can be a VPC you create, a VPC of another
 user, or a virtual gateway you create for access from your on-premises data
 center.)
 
+## Management & Governance
+
+[CES: Cloud Eye][ces] is a multi-dimensional resource monitoring platform. You
+can use Cloud Eye to monitor the utilization of service resources, track the
+running status of cloud services, configure alarm rules and notifications, and
+quickly respond to resource changes. For server monitoring, after you install
+the Agent (Telescope) on an ECS or BMS, you can collect 60-second granularity
+ECS and BMS monitoring data in real-time. Cloud Eye provides 40 metrics, such
+as CPU, memory, and disk metrics. When the cloud service status changes and
+metrics reach the thresholds specified in alarm rules, Cloud Eye can notify you
+using SMN service, by emails, or by sending messages to server addresses,
+allowing you to monitor the cloud resource status and changes in real time.
+
+[SMN: Simple Message Notification][smn] is a reliable and flexible large-scale
+message notification service. SMN involves two roles: publisher and subscriber.
+A publisher publishes messages to a topic, and SMN then delivers the messages
+to subscribers in the topic. The subscribers can be email addresses, phone
+numbers, message queues, and URLs. A topic is a collection of messages and a
+logical access point, through which the publisher and the subscriber can
+interact with each other.
+
+[IAM: Identity and Access Management][iam] is a basic service of HUAWEI CLOUD
+that provides permissions management to help you securely control access to
+your cloud services and resources. An account is created after you successfully
+register with HUAWEI CLOUD. Your account has full access permissions for your
+cloud services and resources and makes payments for the use of these resources.
+For different teams or applications in your enterprise, you can create IAM
+users for the team members or applications and grant them permissions required
+to complete tasks. The IAM users use their own usernames and passwords to log
+in to HUAWEI CLOUD and access resources in your account.
+
+[CTS: Cloud Trace Service][cts] is a log audit service for Huawei Cloud
+security. It allows you to collect, store, and query resource operation
+records. You can use these records to perform security analysis, track resource
+changes, audit compliance, and locate faults. Log audit module is a core
+component necessary for information security audit and an important part for
+the information systems of enterprises and public institutions to provide
+security risk management and control.
+
+[LTS: Log Tank Service][lts] enables you to collect logs from hosts and cloud
+services for centralized management, and analyze large volumes of logs
+efficiently, securely, and in real time. LTS provides you with the insights for
+optimizing the availability and performance of cloud services and applications.
+It allows you to make faster data-driven decisions, perform device O&M with
+ease, and analyze service trends.
+
+[TMS: Tag Management Service][tms] is a visualized service for fast and unified
+cross-region tagging and categorization of cloud services. Tags are used to
+identify cloud resources. When you have many cloud resources of the same type,
+you can use tags to classify cloud resources by dimension (for example, use,
+owner, or environment).
+
 <!-- Introduction -->
 [console]: <https://console-intl.huaweicloud.com/console/?locale=en-us>
 [help-center]: <https://support.huaweicloud.com/intl/en-us/index.html>
@@ -310,3 +362,11 @@ center.)
 [dc]: <https://support.huaweicloud.com/intl/en-us/dc/index.html>
 [vpcep]: <https://support.huaweicloud.com/intl/en-us/vpcep/index.html>
 [cc]: <https://support.huaweicloud.com/intl/en-us/cc/index.html>
+
+<!-- Management & Governance -->
+[ces]: <https://support.huaweicloud.com/intl/en-us/ces/index.html>
+[smn]: <https://support.huaweicloud.com/intl/en-us/smn/index.html>
+[iam]: <https://support.huaweicloud.com/intl/en-us/iam/index.html>
+[cts]: <https://support.huaweicloud.com/intl/en-us/cts/index.html>
+[lts]: <https://support.huaweicloud.com/intl/en-us/lts/index.html>
+[tms]: <https://support.huaweicloud.com/intl/en-us/tms/index.html>
