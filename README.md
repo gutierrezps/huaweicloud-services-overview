@@ -1,5 +1,6 @@
 # Huawei Cloud services overview
 
+<!-- markdownlint-disable-next-line no-inline-html -->
 <a href="https://www.huaweicloud.com/intl/en-us/"><img width="450px" height="102px" src="https://console-static.huaweicloud.com/static/authui/20210202115135/public/custom/images/logo-en.svg"></a>
 
 This project aims to be like a cheatsheet for Huawei Cloud by listing common
@@ -234,6 +235,29 @@ authoritative DNS service that translates domain names (such as
 connection. The DNS service allows users to visit your websites or web
 applications with domain names.
 
+[Direct Connect][dc] allows you to establish a stable, high-speed, low-latency,
+secure dedicated network connection that connects your on-premises data center
+to Huawei Cloud. Direct Connect allows you to maximize legacy IT facilities and
+leverage cloud services to build a flexible, scalable hybrid cloud computing
+environment.
+
+[VPCEP: VPC Endpoint][vpcep] is a cloud service that provides secure and
+private channels to connect your VPCs to VPC endpoint services, including cloud
+services or your private services. It allows you to plan networks flexibly
+without having to use EIPs. There are two types of resources: VPC endpoint
+services, which are cloud services or private services that you manually
+configure in VPCEP; and VPC endpoints, which are secure and private channels
+for connecting VPCs to VPC endpoint services.
+
+[CC: Cloud Connect][cc] allows you to connect VPCs in different regions to
+allow instances in these VPCs to communicate over a private network as if they
+were within the same network. You need to load network instances from these
+regions to a cloud connection and assign bandwidth for cross-region
+communications. (A network instance can be a VPC you create, a VPC of another
+user, or a virtual gateway you create for access from your on-premises data
+center.)
+
+<!-- Introduction -->
 [console]: <https://console-intl.huaweicloud.com/console/?locale=en-us>
 [help-center]: <https://support.huaweicloud.com/intl/en-us/index.html>
 [worldwide-infra]: <https://www.huaweicloud.com/intl/en-us/global/>
@@ -242,10 +266,12 @@ applications with domain names.
 [api-explorer]: <https://apiexplorer.developer.intl.huaweicloud.com/apiexplorer/doc>
 [terraform-provider]: <https://github.com/huaweicloud/terraform-provider-huaweicloud>
 
+<!-- General Concepts -->
 [region-az]: <https://support.huaweicloud.com/intl/en-us/usermanual-iaas/en-us_topic_0184026189.html>
 [pricing]: <https://www.huaweicloud.com/intl/en-us/product/price.html>
 [ecs-billing]: <https://support.huaweicloud.com/intl/en-us/productdesc-ecs/ecs_01_0065.html>
 
+<!-- Computing -->
 [ecs]: <https://support.huaweicloud.com/intl/en-us/ecs/index.html>
 [ecs-flavor]: <https://support.huaweicloud.com/intl/en-us/productdesc-ecs/en-us_topic_0035470096.html>
 [bms]: <https://support.huaweicloud.com/intl/en-us/bms/index.html>
@@ -259,6 +285,7 @@ applications with domain names.
 [dec]: <https://support.huaweicloud.com/intl/en-us/deh_faq/deh_faq_0007.html>
 [hpc]: <https://support.huaweicloud.com/intl/en-us/usermanual-hpc/hpc_01_0002.html>
 
+<!-- Storage -->
 [evs]: <https://support.huaweicloud.com/intl/en-us/evs/index.html>
 [sfs]: <https://support.huaweicloud.com/intl/en-us/sfs/index.html>
 [obs]: <https://support.huaweicloud.com/intl/en-us/obs/index.html>
@@ -268,6 +295,7 @@ applications with domain names.
 [des]: <https://support.huaweicloud.com/intl/en-us/des/index.html>
 [dss]: <https://support.huaweicloud.com/intl/en-us/dss/index.html>
 
+<!-- Networking -->
 [vpc]: <https://support.huaweicloud.com/intl/en-us/vpc/index.html>
 [subnet]: <https://support.huaweicloud.com/intl/en-us/usermanual-vpc/vpc_0001.html>
 [secgroup]: <https://support.huaweicloud.com/intl/en-us/usermanual-vpc/en-us_topic_0073379079.html>
@@ -279,3 +307,6 @@ applications with domain names.
 [natgw]: <https://support.huaweicloud.com/intl/en-us/natgateway/index.html>
 [vpn]: <https://support.huaweicloud.com/intl/en-us/vpn/index.html>
 [dns]: <https://support.huaweicloud.com/intl/en-us/dns/index.html>
+[dc]: <https://support.huaweicloud.com/intl/en-us/dc/index.html>
+[vpcep]: <https://support.huaweicloud.com/intl/en-us/vpcep/index.html>
+[cc]: <https://support.huaweicloud.com/intl/en-us/cc/index.html>
